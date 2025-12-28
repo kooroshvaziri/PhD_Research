@@ -30,24 +30,24 @@ My years of experience in building gaming computer for family and friends finall
 
 Participants in our study viewed three different environments in three different hallways: Real-World through the HMDs OST display, unprocessed VST view with our camera mount, and NPR processed VST view filtered with Sobel edges. Participants were given 2 warmup distances at 4.5 and 6.5 meters in each environment, and then each trial had 4 more readings at 4, 5, 6, and 7 meters which their order of appearance was randomized. The order of views were also shuffled so no two participant had the same order and each view could appear in different hallways.
 
-<img src="assets/vst_hallways.jpg" height="100"> <img src="assets/sobel_screenshot.jpg" height="100"> <img src="assets/sobel_screensho2t.jpg" height="100"> <img src="assets/canny_screenshot2.jpg" height="100">
+<img src="assets/vst_hallways.jpg" height="100"> <img src="assets/vst_userstudy_01.jpg" height="100"> <img src="assets/vst_userstudy_02.jpg" height="100"> <img src="assets/vst_userstudy_03.jpg" height="100">
 
 For measuring the distance, we first found the starting position on the floor by using an aluminum bracket and a pen to mark the center between two shoe fronts on a piece of tape. Then we removed this bracket and used a tape measure to place the target at the appropriate distance according to the scheduled trial.
 
-<img src="assets/vst_userstudy_06.jpg" height="100"> <img src="assets/vst_userstudy_07.jpg" height="100"> <img src="assets/vst_userstudy_08.jpg" height="100">
+<img src="assets/vst_userstudy_04.jpg" height="100"> <img src="assets/vst_userstudy_05.jpg" height="100"> <img src="assets/vst_userstudy_07.jpg" height="100"> <img src="assets/vst_userstudy_08.jpg" height="100"> <img src="assets/vst_userstudy_06.jpg" height="100">
 
 After the participants finished their walk, we put a second aluminum bracket at their feet and used our first bracket again to align the laser tape measure back against our starting position. This procedure allowed us to quickly measure and record the walked distance. For more details about this study and the results, please check out the [ACM SAP paper](https://www.kvaziri.com/publications/).
 
 ### Outdoor Distance Underestimation Research with NPR VST System
 
-<img src="assets/vst_userstudy_03.jpg" height="100">
+<img src="assets/teaser_hires.jpg" height="100">
 
 For second project, we conducted egocentric distance estimation in an outdoor open-field space devoid of spatial clues. This time we used HP Omen backpack computer, and modified the nVisor ST50 to power up by the backpack. Initial field tests revealed that the slow shutter web cams cannot perform in lit outdoor environment and showed a completely white image despite the exposure and gain settings, so we made custom neutral density filters of 5% and 20% with available window tint sheets and nuts and washers from the local hardware stores to reduce the light.
 
-<img src="assets/vst_userstudy_01.jpg" height="100"> <img src="assets/vst_userstudy_02.jpg" height="100"> <img src="assets/nd_filters.jpg" height="100"> <img src="assets/nuts_washers.jpg" height="100"> <img src="assets/vst_userstudy_05.jpg" height="100">
+<img src="assets/nuts_washers.jpg" height="100"> <img src="assets/nd_filters.jpg" height="100"> <img src="assets/LAB_color_space.png" height="100">
 
 We also added a new scene using background subtraction to remove everything but the target, in addition to the video-see-through and Sobel filter. Background subtraction was done by converting the camera frames into LAB color space, ignoring the L-channel, and using the other two channel with a threshold to mask the orange color. However, our target was a plastic cone and prone to specular reflections, so our cameras low dynamic range captured the orange color with white hues and made cavities in the target. To overcome this, we wrapped our target in a felt like fabric that had no specular reflections, and the result was perfect.
 
-<img src="assets/LAB_color_space.png" height="100"> <img src="assets/cones2.jpg" height="100"> <img src="assets/vst_userstudy_04.jpg" height="100">
+<img src="assets/cones2.jpg" height="100">
 
 This work was published in the [IEEEVR 2021 Conference](https://www.kvaziri.com/publications/).
