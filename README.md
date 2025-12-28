@@ -44,7 +44,7 @@ After the participants finished their walk, we put a second aluminum bracket at 
 
 For second project, we conducted egocentric distance estimation in an outdoor open-field space devoid of spatial clues. This time we used HP Omen backpack computer, and modified the nVisor ST50 to power up by the backpack. Initial field tests revealed that the slow shutter web cams cannot perform in lit outdoor environment and showed a completely white image despite the exposure and gain settings, so we made custom neutral density filters of 5% and 20% with available window tint sheets and nuts and washers from the local hardware stores to reduce the light.
 
-<img src="assets/nuts_washers.jpg" height="100"> <img src="assets/nd_filters.jpg" height="100"> <img src="assets/LAB_color_space.png" height="100">
+<img src="assets/nuts_washers.jpg" height="150"> <img src="assets/nd_filters.jpg" height="150"> <img src="assets/LAB_color_space.png" height="150">
 
 We also added a new scene using background subtraction to remove everything but the target, in addition to the video-see-through and Sobel filter. Background subtraction was done by converting the camera frames into LAB color space, ignoring the L-channel, and using the other two channel with a threshold to mask the orange color. However, our target was a plastic cone and prone to specular reflections, so our cameras low dynamic range captured the orange color with white hues and made cavities in the target. To overcome this, we wrapped our target in a felt like fabric that had no specular reflections, and the result was perfect.
 
