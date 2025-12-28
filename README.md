@@ -48,6 +48,6 @@ For second project, we conducted egocentric distance estimation in an outdoor op
 
 We also added a new scene using background subtraction to remove everything but the target, in addition to the video-see-through and Sobel filter. Background subtraction was done by converting the camera frames into LAB color space, ignoring the L-channel, and using the other two channel with a threshold to mask the orange color. However, our target was a plastic cone and prone to specular reflections, so our cameras low dynamic range captured the orange color with white hues and made cavities in the target. To overcome this, we wrapped our target in a felt like fabric that had no specular reflections, and the result was perfect.
 
-<img src="assets/cones2.jpg" height="300">
+<img src="assets/cones2.jpg" height="250">
 
 This work was published in the [IEEEVR 2021 Conference](https://www.kvaziri.com/publications/).
