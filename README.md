@@ -1,6 +1,6 @@
 # PhD Research
 
-I worked with Prof. Victoria Interrante, my PhD advisor, on a variety of interesting and challenging subjects during my time at the University of Minnesota. My research interests focused on Non-Photo realistic Rendering (NPR) in Virtual Reality (VR) and Augmented Reality (AR), Video-See-Through (VST) Head-Mounted Displays (HMDs), Multi-Person Collaboration in VR, Visual Perception, Distance Underestimation, Spatial Disorientation, Cybersickness, and Human-Computer Interaction (HCI). All the official papers and publications can be found on the [publications page](https://www.kvaziri.com/publications/), but here you will find some more details about my research.
+I worked with Prof. Victoria Interrante, my PhD advisor, on a variety of interesting and challenging subjects during my time at the University of Minnesota. My research interests focused on Non-Photo realistic Rendering (NPR) in Virtual Reality (VR) and Augmented Reality (AR), Video-See-Through (VST) Head-Mounted Displays (HMDs), Multi-Person Collaboration in VR, Visual Perception, Distance Underestimation, Spatial Disorientation, Cybersickness, and Human-Computer Interaction (HCI). All the official papers and publications can be found on the [publications page](https://scholar.google.com/citations?user=-IZ5qksAAAAJ), but here you will find some more details about my research.
 
 ### Distance Underestimation Research with NPR VST System
 
@@ -36,7 +36,7 @@ For measuring the distance, we first found the starting position on the floor by
 
 <img src="assets/vst_userstudy_04.jpg" height="100"> <img src="assets/vst_userstudy_05.jpg" height="100"> <img src="assets/vst_userstudy_07.jpg" height="100"> <img src="assets/vst_userstudy_08.jpg" height="100"> <img src="assets/vst_userstudy_06.jpg" height="100">
 
-After the participants finished their walk, we put a second aluminum bracket at their feet and used our first bracket again to align the laser tape measure back against our starting position. This procedure allowed us to quickly measure and record the walked distance. For more details about this study and the results, please check out the [2017 ACM SAP paper](https://www.kvaziri.com/publications/).
+After the participants finished their walk, we put a second aluminum bracket at their feet and used our first bracket again to align the laser tape measure back against our starting position. This procedure allowed us to quickly measure and record the walked distance. For more details about this study and the results, please check out the [2017 ACM SAP paper](https://scholar.google.com/citations?user=-IZ5qksAAAAJ).
 
 ### Outdoor Distance Underestimation Research with NPR VST System
 
@@ -50,4 +50,4 @@ We also added a new scene using background subtraction to remove everything but 
 
 <img src="assets/cones2.jpg" height="250">
 
-This work was published in the [IEEEVR 2021 Conference](https://www.kvaziri.com/publications/).
+This work was published in the [IEEEVR 2021 Conference](https://scholar.google.com/citations?user=-IZ5qksAAAAJ).
