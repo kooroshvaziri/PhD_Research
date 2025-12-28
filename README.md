@@ -14,7 +14,7 @@ Here, you will find some additional details that was not covered extensively in 
 
 For the first project, we created a portable custom VST system based on an nVisor ST50. This special HMD is dual-purpose: VR with its removable blinder and AR through its Optical-See-Through (OST) by removing that piece. This fact allowed us to create a custom 3D-printed camera mount and calibrate our camera views to near perfect registrations with the real-world which is not easily done with other VR-only HMDs currently on the market like Oculus Rift and HTC Vibe. Also at this point, Microsoft HoloLens has a very narrow field-of-view (FOV) which is not perfect for distance perception studies. By using nVisor ST50, we were able to simply 3D-print half of the camera mount and superimpose one camera image on the see-through LCD and observe the difference between these images and correct the magnification and misalignments.
 
-<img src="assets/nvis_st50.jpg" height="100"> <img src="assets/nvis_blinder.jpg" height="100"> <img src="assets/mount_model.jpg" height="100"> <img src="assets/mount_half.jpg" height="100"> <img src="assets/vst_side.jpg" height="100"> <img src="assets/vst_front.jpg" height="100">
+<img src="assets/nvis_st50.jpg" height="100"> <img src="assets/vst_system_camera_mount.jpg" height="100"> <img src="assets/mount_model.jpg" height="100"> <img src="assets/mount_half.jpg" height="100"> <img src="assets/vst_side.jpg" height="100"> <img src="assets/vst_front.jpg" height="100">
 
 Our custom camera mount also has rails on top and bottom in order for the cameras to move and shift sideways, so we can individually adjust them to every participants’ interpupillary eye distance (IPD) to eliminate parallax in horizontal and vertical axes. Our system has parallax in depth axis, but it can be shown mathematically that for distance above 10 feet, it is negligible.
 
@@ -28,4 +28,22 @@ Participants in our study viewed three different environments in three different
 
 <img src="assets/environment_1.jpg" height="100"> <img src="assets/environment_2.jpg" height="100"> <img src="assets/environment_3.jpg" height="100"> <img src="assets/environment_4.jpg" height="100">
 
-For measuring the distance, we first found the starting position on the floor
+For measuring the distance, we first found the starting position on the floor by using an aluminum bracket and a pen to mark the center between two shoe fronts on a piece of tape. Then we removed this bracket and used a tape measure to place the target at the appropriate distance according to the scheduled trial.
+
+<img src="assets/measurement_1.jpg" height="100"> <img src="assets/measurement_2.jpg" height="100"> <img src="assets/measurement_3.jpg" height="100"> <img src="assets/measurement_4.jpg" height="100"> <img src="assets/measurement_5.jpg" height="100">
+
+After the participants finished their walk, we put a second aluminum bracket at their feet and used our first bracket again to align the laser tape measure back against our starting position. This procedure allowed us to quickly measure and record the walked distance. For more details about this study and the results, please check out the [ACM SAP paper](https://www.kvaziri.com/publications/).
+
+### Outdoor Distance Underestimation Research with NPR VST System
+
+<img src="assets/outdoor_1.jpg" height="100">
+
+For second project, we conducted egocentric distance estimation in an outdoor open-field space devoid of spatial clues. This time we used HP Omen backpack computer, and modified the nVisor ST50 to power up by the backpack. Initial field tests revealed that the slow shutter web cams cannot perform in lit outdoor environment and showed a completely white image despite the exposure and gain settings, so we made custom neutral density filters of 5% and 20% with available window tint sheets and nuts and washers from the local hardware stores to reduce the light.
+
+<img src="assets/outdoor_2.jpg" height="100"> <img src="assets/outdoor_3.jpg" height="100"> <img src="assets/outdoor_4.jpg" height="100">
+
+We also added a new scene using background subtraction to remove everything but the target, in addition to the video-see-through and Sobel filter. Background subtraction was done by converting the camera frames into LAB color space, ignoring the L-channel, and using the other two channel with a threshold to mask the orange color. However, our target was a plastic cone and prone to specular reflections, so our cameras low dynamic range captured the orange color with white hues and made cavities in the target. To overcome this, we wrapped our target in a felt like fabric that had no specular reflections, and the result was perfect.
+
+<img src="assets/outdoor_5.jpg" height="100">
+
+This work was published in the [IEEEVR 2021 Conference](https://www.kvaziri.com/publications/).
