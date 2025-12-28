@@ -36,7 +36,7 @@ For measuring the distance, we first found the starting position on the floor by
 
 <img src="assets/vst_userstudy_04.jpg" height="100"> <img src="assets/vst_userstudy_05.jpg" height="100"> <img src="assets/vst_userstudy_07.jpg" height="100"> <img src="assets/vst_userstudy_08.jpg" height="100"> <img src="assets/vst_userstudy_06.jpg" height="100">
 
-After the participants finished their walk, we put a second aluminum bracket at their feet and used our first bracket again to align the laser tape measure back against our starting position. This procedure allowed us to quickly measure and record the walked distance. For more details about this study and the results, please check out the [ACM SAP paper](https://www.kvaziri.com/publications/).
+After the participants finished their walk, we put a second aluminum bracket at their feet and used our first bracket again to align the laser tape measure back against our starting position. This procedure allowed us to quickly measure and record the walked distance. For more details about this study and the results, please check out the [2017 ACM SAP paper](https://www.kvaziri.com/publications/).
 
 ### Outdoor Distance Underestimation Research with NPR VST System
 
