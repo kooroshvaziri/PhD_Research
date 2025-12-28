@@ -1,6 +1,6 @@
 # PhD Research
 
-I worked with Prof. Victoria Interrante, my PhD advisor, on a variety of interesting and challenging subjects during my time at the University of Minnesota. My research interests focused on Non-Photo realistic Rendering (NPR) in Virtual Reality (VR) and Augmented Reality (AR), Video-See-Through (VST) Head-Mounted Displays (HMDs), Multi-Person Collaboration in VR, Visual Perception, Distance Underestimation, Spatial Disorientation, Cybersickness, and Human-Computer Interaction (HCI). All the official papers and publications can be found on the [publications page](https://scholar.google.com/citations?user=-IZ5qksAAAAJ), but here you will find some more details about my research.
+I worked with Prof. Victoria Interrante, my PhD advisor, on a variety of interesting and challenging subjects during my time at the University of Minnesota. My research interests focused on Non-Photo realistic Rendering (NPR) in Virtual Reality (VR) and Augmented Reality (AR), Video-See-Through (VST) Head-Mounted Displays (HMDs), Multi-Person Collaboration in VR, Visual Perception, Distance Underestimation, Spatial Disorientation, Cybersickness, and Human-Computer Interaction (HCI). All the official papers and publications can be found on the [Google Scholar page](https://scholar.google.com/citations?user=-IZ5qksAAAAJ), but here you will find some more details about my research.
 
 ### Distance Underestimation Research with NPR VST System
 
